@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Navbar} from '../src/components/navbar';
+import {NavbarTop} from '../src/components/navbar/navbar-top';
+import {Navbar} from '../src/components/navbar/navbar';
 import {MainBox} from '../src/components/mainbox';
 import {Home} from '../src/components/home';
 import {About} from '../src/components/about';
@@ -8,6 +9,12 @@ import {Menu} from '../src/components/menu';
 import {Support} from '../src/components/support';
 import {Admin} from '../src/components/admin';
 import { HashRouter as Router, Route} from 'react-router-dom';
+
+ReactDOM.render(
+    <div>
+        <NavbarTop />
+    </div>, document.getElementById('react-navbar-top')    
+);
 
 ReactDOM.render(
     <div>

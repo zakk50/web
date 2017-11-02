@@ -1,0 +1,13 @@
+@import './_constant.scss';
+nav{
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    margin-top: 24px; 
+    background: $color-navtop-main;
+    color: $color-navtop-text;
+    .navtop-main{
+        margin-left: 80px;
+        padding: 20px 0;
+    }
+}
