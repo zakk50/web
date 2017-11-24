@@ -4,7 +4,6 @@ nav{
     position: fixed;
     width: 100%;
     height: 72px;
-    // margin-top: 24px; 
     background: $color-navtop-main;
     color: $color-navtop-text;
     .navtop-main{
@@ -13,9 +12,6 @@ nav{
     }
 }
 //navleft
-.container-main{
-    width:100vh;
-}
 .container-header{
     position: fixed;
     width: $header-width;

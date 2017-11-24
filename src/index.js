@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import {Navbar} from '../src/components/navbar/navbar';
 import {MainBox} from '../src/components/mainbox';
 import {Home} from '../src/components/home';
-import {About} from '../src/components/about';
+import {Notes} from '../src/components/notes/notes';
 import {Menu} from '../src/components/menu';
 import {Support} from '../src/components/support';
 import {Admin} from '../src/components/admin';
@@ -24,7 +24,7 @@ ReactDOM.render(
                 <div>
                     <Route exact path="/"  component={Home}/>
                     <Route path="/menu" component={Menu}/>
-                    <Route path="/about" component={About}/>
+                    <Route path="/notes" component={Notes}/>
                     <Route path="/support" component={Support}/>
                     <Route path="/admin" component={Admin}/>
                 </div>

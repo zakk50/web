@@ -30,10 +30,10 @@ export class Navbar extends React.Component{
                                     <div className="icon-item"></div>
                                 </div>
                                 <div className="item">
-                                    <Link to="/about">
+                                    <Link to="/notes">
                                         <div className="menu-item">
                                             <div className="menu-text">
-                                                About
+                                                Notes
                                             </div>
                                         </div>
                                     </Link>
