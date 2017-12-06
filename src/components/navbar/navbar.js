@@ -8,7 +8,7 @@ export class Navbar extends React.Component{
                 <div>
                     <nav>
                         <div className="navtop-main">
-                            <h1>asdasd</h1>
+                            <h1>NAVBAR</h1>
                         </div>
                     </nav>
                     
@@ -39,19 +39,10 @@ export class Navbar extends React.Component{
                                     </Link>
                                 </div>
                                 <div className="item">
-                                    <Link to="/menu">
+                                    <Link to="/helpdesk">
                                         <div className="menu-item">
                                             <div className="menu-text">
-                                                Menu
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-                                <div className="item">
-                                    <Link to="/support">
-                                        <div className="menu-item">
-                                            <div className="menu-text">
-                                                Support
+                                                HelpDesk
                                             </div>
                                         </div>
                                     </Link>
