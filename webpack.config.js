@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/entry.js',
+  entry: './src/main.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -42,12 +42,13 @@ module.exports = {
             test: /\.(woff|woff2|eot|ttf|otf)$/,
             use: [
                   'file-loader'
-            ]
+                  ]
           }
       ]
   },
   devServer: {
     contentBase: './dist',
+    compress: true, 
     port: 3000,
   }
 };
