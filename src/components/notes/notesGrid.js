@@ -1,7 +1,7 @@
 import React from 'react';
 
-const NotesGrid = props =>(
-    <div>NotesGrid</div>
-)
+const NotesGrid = props =>{
+    return(<div>NotesGrid</div>);
+};
 
 export default NotesGrid;
