@@ -1,5 +1,6 @@
 @import './_constant.scss';
 @import './notes.scss';
+@import './navbar.scss';
 
 *{
     margin: 0;
@@ -31,8 +32,4 @@ body{
     background:$color-nav-body;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-}
-//боковое меню 250px
-header{
-    width:250px;
 }

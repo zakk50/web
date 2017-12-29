@@ -1,13 +1,13 @@
 import mongoose from 'mongoose';
 
-import '../modules/Note';
+import config from "../../etc/config.json";
 
-import config from '../../etc/config.json';
+import '../models/Note';
 
 const Note = mongoose.model('Note');
 
 export function setUpConnection() {
-    mongoose.connect('mongodb://localhost:${config.db.port}/notes');
+    mongoose.connect('mongodb://localhost:27017/notes', {useMongoClient: true});
 }
 
 export function listNotes() {
@@ -19,7 +19,7 @@ export function createNote(data) {
         title: data.title,
         text: data.text,
         color: data.color,
-        createNote: new Data()
+        createAt: new Data()
     });
 
     return note.save()

@@ -1,9 +1,10 @@
 {
-    "apiPrefex": "http://localhost:8080",
-    "serverPort": "3000",
+    "apiPrefex": "http://localhost:3000",
+    "serverPort": "3001",
+    "server": "3015",
     "db":{
         "name": "notes",
         "host": "localhost",
-        "port": "27017"
+        "port": 27017
     }
 }
